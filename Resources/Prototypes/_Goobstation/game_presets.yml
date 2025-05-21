@@ -218,6 +218,7 @@
     - KingRatMigration
     - DragonSpawn
     - AnomalySpawn
+    - SubGamemodesHivelord
     - Xeno
     - SubGamemodesRule
     - IonStormScheduler
@@ -243,6 +244,22 @@
     - Heretic
     - Devil
     - CosmicCult
+    - SubGamemodesRule
+    - IonStormScheduler
+    - SpaceTrafficControlEventScheduler
+
+- type: gamePreset
+  id: TheChaos
+  alias:
+    - combat
+    - combatdynamic
+  name: chaos-title
+  description: chaos-description
+  showInVote: true
+  minPlayers: 22
+  rules:
+    - CombatDynamic
+    - LavalandStormScheduler
     - SubGamemodesRule
     - IonStormScheduler
     - SpaceTrafficControlEventScheduler

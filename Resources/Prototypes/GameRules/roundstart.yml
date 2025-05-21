@@ -614,3 +614,20 @@
       orGroup: puddleMess
     - id: SmugglerStashVariationPass
       prob: 0.90
+
+- type: entity
+  parent: BaseGameRule
+  id: SubGamemodesHivelord
+  components:
+  - type: SubGamemodes
+    rules:
+    - id: BlobGameMode
+      prob: 1.2
+    - id: BlobMidround
+      prob: 1.2
+    - id: ZombieOutbreak
+      prob: 1.6
+    - id: AnomalySpawn
+      prob: 1.8
+    - id: BingleSpawn
+      prob: 1.6
