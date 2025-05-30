@@ -640,3 +640,5 @@
       prob: 1.8
     - id: SpiderClownSpawn
       prob: 1.8
+    - id: SnakeSpawn
+      prob: 1.9
