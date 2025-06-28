@@ -57,7 +57,7 @@ public sealed class BlobSpawnRule : StationEventSystem<BlobSpawnRuleComponent>
         }
 
         var playerPool = _playerSystem.Sessions.ToList();
-        var numBlobs = MathHelper.Clamp(playerPool.Count / component.PlayersPerCarrierBlob, 1, component.MaxCarrierBlob);
+        var numBlobs = MathHelper.Clamp(playerPool.Count / component.PlayersPerCarrierBlob, 10, component.MaxCarrierBlob);
 
         for (var i = 0; i < numBlobs; i++)
         {
